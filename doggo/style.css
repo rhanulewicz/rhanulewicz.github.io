@@ -1,0 +1,15 @@
+*{
+border: 2px blue solid;
+}
+
+ul {
+background:red;
+}
+
+li{
+background:orange;
+}
+
+img{
+border: 5px aqua dotted;
+}
