@@ -1,0 +1,60 @@
+<HTML>
+
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+//One of jQuery's core features is "selecting" elements from your HTML and using them.
+//The following block of code is a simple example.
+$("document").ready(function(){ 
+	$("#N7").hide();			
+});								
+//The first line "selects" the HTML document using $("document"). It then calls the ready() method to execute a function when it is "ready" (done loading).
+//The second line is the code executed in the function. It selects the element with the ID "N7" and calls the hide() method on it. This hides it.
+//So, what line of code do you think you'd want to execute in the console to show this element again?
+</script>
+<style type="text/css">
+img{
+	position:relative;
+	left: 0px;			/*This specifies that there are 0 pixels to the left of all images, try changing this value and see what happens.*/
+}
+</style>
+</head>
+
+<body>
+<b>Editing in-browser</b>
+<p>For this portion of the activity you will be editing code right in the browser.
+To make sure you know how to do this, edit this page such that next portion of the lesson appears below.</p>
+<p> Recall: In Chrome, 'F12' or 'Right click -> Inspect' will show you the source code and allow you to edit it by right-clicking any portion and selecting "Edit as HTML"</p>
+<p>Once there, remove the word "hidden" from the div tag below.</p>
+<div hidden>
+<b> Hide and show content with jQuery</b>
+<p> There is still some hidden content on this page. However, it was not hidden using "hidden". It was hidden using jQuery.
+Read the source code to understand how it works, we have left comments for you to learn from.</p>
+<p> Your task this time is to execute jQuery code to make this content appear on the page. This code can be typed directly into the console in the same menu you used to edit the HTML. </p>
+<p> Hint: A method exists that does the opposite of hide(). Feel free to reference the <a href="http://api.jquery.com/category/effects/">documentation</a>.</p>
+<br>
+</div>
+<div id="N7">
+<b>Contratulations, you did it!</b>
+<br>
+<img src="hacker.jpg"/>
+<br>
+<p> If you're feeling like this guy right about now, don't worry, that's normal. There is no cure.
+<p> There is another hidden element on this page. Find it in the source code and use jQuery to show it.</p>
+</div>
+<br>
+<div id="HEV" style="display: none;">
+<b> Holy wow, you are good at this computer stuff.</b>
+<br>
+<img src="hacker2.jpg"/>
+<br>
+<p>Alright hot shot, now we're gonna make things move. The task now is to animate both images such that they move smoothly to another location on the screen. Sounds hard, but jQuery makes simple animations like that a breeze. <b>This can be done in one line of code.</b></p>
+<p>Elements can be selected by their tag rather than their ID by simply excluding the '#' in your selector. For example, $("div") will select all div elements, regardless of ID.</p>
+<p>The animation is achieved through a jQuery method called animate(). It allows you to animate changes to CSS properties of elements. The the method call will be animate({<i>property</i>: '<i>value</i>'}).</p>
+<p>Italicized words are for you to figure out. Look at the source CSS for clues. Don't be afraid to google for answers, there are plenty of helpful resources like <a href="http://www.w3schools.com/jquery/jquery_animate.asp">w3schools</a> or the <a href="http://api.jquery.com/animate/">documentation.</a></p>
+<br>
+<p>Keep this page open. Your TA will check to make sure you have done this correctly. You may then move on to part 2 on the activity sheet.</p>
+</div>
+
+</body>
+</HTML>
