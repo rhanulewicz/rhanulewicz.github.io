@@ -1,8 +1,122 @@
+
+<html>
 <head>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<script src="js/jquery-3.1.1.min.js"> </script>
 </head>
 
-This website isn't built yet.
-<br>
-Impressed? Here's my 
-<a href="resume.pdf">resume.</a>
+<body bgcolor="#E6E6FA">
+	<div id="sidething">
+		<div id="sidethingcontents">
+			<p class="lead" align="center">Richard Hanulewicz<p>
+			<p align="center" style="margin-top: -16px; color:grey">Computer Science student and TA at University at Buffalo</p>
+			<img id="propic" class="img-circle"" src="propic.jpg">
+			
+			<div id="sidebarcentered">
+				<a href="https://github.com/rshanule" target="_blank"><i class="fa fa-github"></i></a>
+				&nbsp;•&nbsp;
+				<a href="https://bitbucket.org/rshanule/"><i class="fa fa-bitbucket"></i></a>
+				&nbsp;•&nbsp;
+				<a href="https://www.linkedin.com/in/richard-hanulewicz-307a2a126" target="_blank"><i class="fa fa-linkedin"></i></a>
+				&nbsp;•&nbsp;
+				<a href="mailto:rhanulewicz@aol.com"><i class="fa fa-envelope" title="Email"></i></a>
+			</div>
+			
+			<div id="slice2">
+				<a id="sidelink" href="#edu"></a>
+				<p id ="pslice2">Education</p>
+			</div>
+			<div id="slice3">
+				<a id="sidelink" href="#exp"></a>
+				<p id ="pslice3">Experience</p>
+			</div>
+			<div id="slice4">
+				<a id="sidelink" href="#skills"></a>
+				<p id ="pslice4" >Skills</p>
+			</div>
+			<div id="sliceL">
+				<a id="sidelink" href="#projects"></a>
+				<p id ="psliceL" >Projects</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="therest">
+		<h4 id="titletext">
+			"What a man can be, he must be" ~ Abraham Maslow
+		</h4>
+		<hr id="dividyguy" style="border-top: 1px solid lightgrey; margin-left: -32px;">
+
+		<h2 id="edu">Education</h2>
+		<div class="well">
+			<p class="lead">University at Buffalo (Buffalo, NY)</p>
+			<blockquote>
+				<li>B.S. in Computer Science, Expected May 2018</li>
+				<li>3.6 GPA, Currently in 5th semester</li>
+			</blockquote>
+		</div>
+
+		<h2 id="exp">Experience</h2>
+		<div class="well">
+			<p class="lead">University at Buffalo – Teaching Assistant for CSE 199</p>
+			<blockquote>
+				<li>Helped design and build coursework (The class hadn’t existed in years prior)</li>
+				<li>Carefully guided students through coursework, answered questions</li>
+				<li>Helped run class sessions and recitations, graded assignments</li>
+			</blockquote>
+		</div>
+
+		<h2 id="skills">Skills</h2>
+		<div class="well">
+			<p class="lead">Languages</p>
+			<blockquote>
+				<li>Python</li>
+				<li>Java</li>
+				<li>HTML/CSS</li>
+				<li>Javascript</li>
+				<li>C++</li> 
+			</blockquote>
+			<p class="lead">Programs/Tools</p>
+			<blockquote>
+				<li>Git</li>
+				<li>Android Studio</li>
+				<li>Adobe Photoshop</li>
+				<li>Adobe Premier</li>
+			</blockquote>
+			<p class="lead">Operating Systems</p>
+			<blockquote>
+				<li>Windows (7/8/10)</li>
+				<li>Linux (Ubuntu/Lubuntu)</li>
+				
+			</blockquote>
+		</div>
+		<h2 id="projects">Projects</h2>
+		<div class="well">
+			<p class="lead">Python Matrices (Personal, Unfinished) <a href="https://bitbucket.org/rshanule/matrices"><i class="fa fa-bitbucket"></i></a></p>
+			<blockquote>A Python class to build and manipulate matrices.</blockquote>
+			<p class="lead">Natural Selection Sim (Personal, Unfinished)</p>
+			<blockquote>
+				An experimental game/simulation in which beings "die" based on how their traits match up with the environment – inspired by the
+				real-life phenomenon of natural selection.
+			</blockquote>
+			<p class="lead">Pale Blue Dot (CSE 250)</p>
+			<blockquote>
+				Given a list of observatories and their GPS coordinates, uses a NASA API to locate the closest observatory to the
+				International Space Station at any given moment.
+			</blockquote>
+			<p class="lead">Rhyme Bot (CSE 250)</p>
+			<blockquote>
+				Given a large amount of data about words and their syllables, uses the trie data sctructure to efficiently find the best rhymes to
+				user-inputted words.
+			</blockquote>
+			<p class="lead">Web Graph (CSE 250)</p>
+			<blockquote>
+				Creats a graph of the internet given a sample of millions of websites and their connections, uses Breadth-first search to efficiently find the
+				shortest path between two specified websites.
+			</blockquote>
+	</div>
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>

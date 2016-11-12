@@ -1,0 +1,75 @@
+#sidething{
+	position: fixed;
+    width:20%;
+    min-width: 120px;
+    height:100%;
+    background: white;
+    -webkit-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75);
+    z-index: 1;
+}
+#sidethingcontents{
+	position: relative;
+	top: 2%;
+
+}
+#therest{
+	position:absolute;
+	top: 1%;
+	z-index: 0;
+	margin-right: 2%;
+}
+#slice1,#slice2,#slice3,#slice4{
+	position: relative;
+	border: 1px solid lightgrey;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+    box-sizing: border-box;
+    height:7%;
+    min-height: 20px
+}
+#sliceL{
+	position: relative;
+	border: 1px solid lightgrey;
+	border-left: 0;
+	border-right: 0;
+    box-sizing: border-box;
+    height:7%;
+    min-height: 20px
+}
+#pslice1,#pslice2,#pslice3,#pslice4,#psliceL {
+	position: relative; 
+	left:10%; 
+	top: 50%; 
+	transform: translateY(-50%); 
+	font-weight: bold;
+}
+#sidelink{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; 
+    z-index: 10; 
+    background-color: #FFF; 
+    opacity: 0 ; 
+    filter: alpha(opacity=1);
+}
+body{
+	background-color: #f4f4f4;
+}
+.img-circle{
+	position: relative;
+	border-radius:50%;
+	width:75%;
+	left: 12.5%;
+}
+#sidebarcentered{
+	margin-top:5%;
+	margin-bottom: 5%;
+	text-align: center;
+}
+
