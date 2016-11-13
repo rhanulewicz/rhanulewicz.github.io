@@ -23,3 +23,12 @@ $("#slice1,#slice2,#slice3,#slice4, #sliceL").mouseleave(function(){
 	pslice = "#p" + slice;
 	$(pslice).animate({left: '10%'}, 100); 
 });
+
+$("a").click(function(){
+
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top 
+    }, 500);
+    $('html, body').clearQueue();
+    return false;
+});
