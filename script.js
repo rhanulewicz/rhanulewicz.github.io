@@ -11,21 +11,20 @@ function pack(){
 pack();
 window.onresize = function(event) {pack();};
 
-$("#slice1,#slice2,#slice3,#slice4, #sliceL").mouseenter(function(){
+$("#slice1,#slice2,#slice3,#sliceL").mouseenter(function(){
 	slice = $(this).attr("id");
 	pslice = "#p" + slice;
 	$(pslice).animate({left: '15%'}, 50); 	
 	$(pslice).clearQueue();
 });
 
-$("#slice1,#slice2,#slice3,#slice4, #sliceL").mouseleave(function(){
+$("#slice1,#slice2,#slice3,#sliceL").mouseleave(function(){
 	slice = $(this).attr("id")
 	pslice = "#p" + slice;
 	$(pslice).animate({left: '10%'}, 100); 
 });
 
-$("a").click(function(){
-
+$("#sidelink1, #sidelink2, #sidelink3, #sidelinkL").click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top 
     }, 500);

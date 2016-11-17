@@ -1,10 +1,11 @@
 
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="style.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 <script src="js/jquery-3.1.1.min.js"> </script>
+<script src="js/bootstrap.min.js"></script>
 </head>
 
 <body bgcolor="#E6E6FA">
@@ -17,30 +18,42 @@
 			<div id="sidebarcentered">
 				<a href="https://github.com/rshanule" target="_blank"><i class="fa fa-github"></i></a>
 				&nbsp;•&nbsp;
-				<a href="https://bitbucket.org/rshanule/"><i class="fa fa-bitbucket"></i></a>
+				<a href="https://www.linkedin.com/in/rshanule" target="_blank"><i class="fa fa-linkedin"></i></a>
 				&nbsp;•&nbsp;
-				<a href="https://www.linkedin.com/in/richard-hanulewicz-307a2a126" target="_blank"><i class="fa fa-linkedin"></i></a>
+				<a href="https://twitter.com/rhanulewicz"><i class="fa fa-twitter"></i></a>
 				&nbsp;•&nbsp;
-				<a href="mailto:rhanulewicz@aol.com"><i class="fa fa-envelope" title="Email"></i></a>
+				<a type="button" data-toggle="modal" data-target="#eModal"><i class="fa fa-envelope" title="Email"></i></a>
 			</div>
 			
+			<div id="slice1">
+				<a id="sidelink1" href="#edu"></a>
+				<p id ="pslice1">Education</p>
+			</div>
 			<div id="slice2">
-				<a id="sidelink" href="#edu"></a>
-				<p id ="pslice2">Education</p>
+				<a id="sidelink2" href="#exp"></a>
+				<p id ="pslice2">Experience</p>
 			</div>
 			<div id="slice3">
-				<a id="sidelink" href="#exp"></a>
-				<p id ="pslice3">Experience</p>
-			</div>
-			<div id="slice4">
-				<a id="sidelink" href="#skills"></a>
-				<p id ="pslice4" >Skills</p>
+				<a id="sidelink3" href="#skills"></a>
+				<p id ="pslice3" >Skills</p>
 			</div>
 			<div id="sliceL">
-				<a id="sidelink" href="#projects"></a>
+				<a id="sidelinkL" href="#projects"></a>
 				<p id ="psliceL" >Projects</p>
 			</div>
 		</div>
+	</div>
+
+	<div id="eModal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+	    	<!-- Modal content-->
+	    	<div class="modal-content">
+	      		<div class="modal-body">
+	      			<button type="button" class="close" data-dismiss="modal">&times;</button>
+	      			<center><h2><a href="mailto:rshanule@buffalo.edu">rshanule@buffalo.edu</a></h2></center>
+	      		</div>
+	    	</div>
+	    </div>
 	</div>
 
 	<div id="therest">
@@ -51,16 +64,17 @@
 
 		<h2 id="edu">Education</h2>
 		<div class="well">
-			<p class="lead">University at Buffalo (Buffalo, NY)</p>
+			<p class="lead">2014 - present, University at Buffalo (UB)</p>
 			<blockquote>
-				<li>B.S. in Computer Science, Expected May 2018</li>
-				<li>3.6 GPA, Currently in 5th semester</li>
+				<li>B.S. in Computer Science (Expected May 2018), 3.6 GPA</li>
+				<li>Member of UB ACM</li>
+				<li>Helped set up and run UB Hacking 2016</li>
 			</blockquote>
 		</div>
 
 		<h2 id="exp">Experience</h2>
 		<div class="well">
-			<p class="lead">University at Buffalo – Teaching Assistant for CSE 199</p>
+			<p class="lead">August 2016 - present, Teaching Assistant for CSE 199 at UB</p>
 			<blockquote>
 				<li>Helped design and build coursework (The class hadn’t existed in years prior)</li>
 				<li>Carefully guided students through coursework, answered questions</li>
@@ -75,7 +89,7 @@
 				<li>Python</li>
 				<li>Java</li>
 				<li>HTML/CSS</li>
-				<li>Javascript</li>
+				<li>Javascript/jQuery</li>
 				<li>C++</li> 
 			</blockquote>
 			<p class="lead">Programs/Tools</p>
@@ -85,7 +99,7 @@
 				<li>Adobe Photoshop</li>
 				<li>Adobe Premier</li>
 			</blockquote>
-			<p class="lead">Operating Systems</p>
+			<p class="lead">Familiar Operating Systems</p>
 			<blockquote>
 				<li>Windows (7/8/10)</li>
 				<li>Linux (Ubuntu/Lubuntu)</li>
@@ -94,24 +108,24 @@
 		</div>
 		<h2 id="projects">Projects</h2>
 		<div class="well">
-			<p class="lead">Python Matrices (Personal, Unfinished) <a href="https://bitbucket.org/rshanule/matrices"><i class="fa fa-bitbucket"></i></a></p>
-			<blockquote>A Python class to build and manipulate matrices.</blockquote>
-			<p class="lead">Natural Selection Sim (Personal, Unfinished)</p>
-			<blockquote>
-				An experimental game/simulation in which beings "die" based on how their traits match up with the environment – inspired by the
-				real-life phenomenon of natural selection.
+			<p class="lead">This page (2016, Personal)</p>
+			<blockquote>I built this page in order to teach myself the fundamentals of HTML, CSS, Javascript, and jQuery. It was a great learning experience.
 			</blockquote>
-			<p class="lead">Pale Blue Dot (CSE 250)</p>
+
+			<p class="lead">Python Matrices (2016, Personal) <a href="https://github.com/rshanule/Python-Matrices"><i class="fa fa-github"></i></a></p>
+			<blockquote>A Python class to build and manipulate matrices. Currently unfinished.</blockquote>
+
+			<p class="lead">Pale Blue Dot (2016, CSE 250: Data Structures)</p>
 			<blockquote>
 				Given a list of observatories and their GPS coordinates, uses a NASA API to locate the closest observatory to the
 				International Space Station at any given moment.
 			</blockquote>
-			<p class="lead">Rhyme Bot (CSE 250)</p>
+			<p class="lead">Rhyme Bot (2016, CSE 250: Data Structures)</p>
 			<blockquote>
 				Given a large amount of data about words and their syllables, uses the trie data sctructure to efficiently find the best rhymes to
 				user-inputted words.
 			</blockquote>
-			<p class="lead">Web Graph (CSE 250)</p>
+			<p class="lead">Web Graph (2016, CSE 250: Data Structures) <a href="https://github.com/rshanule/Web-Graph"><i class="fa fa-github"></i></a></p>
 			<blockquote>
 				Creats a graph of the internet given a sample of millions of websites and their connections, uses Breadth-first search to efficiently find the
 				shortest path between two specified websites.
