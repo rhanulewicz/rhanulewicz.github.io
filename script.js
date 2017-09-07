@@ -26,7 +26,7 @@ $("#slice1,#slice2,#slice3,#sliceL").mouseleave(function(){
 
 $("#sidelink1, #sidelink2, #sidelink3, #sidelinkL").click(function(){
     $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top 
+        scrollTop: $($(this).attr('href')).offset().top 
     }, 500);
     $('html, body').clearQueue();
     return false;
