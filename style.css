@@ -1,12 +1,19 @@
+.well {
+    background: #1b2836;
+    border-color: black;
+}
+blockquote{
+	border-left: 5px;
+}
 #sidething{
 	position: fixed;
     width:20%;
     min-width: 120px;
     height:100%;
-    background: #f4f4f4;
-    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.5);
+    background: #1b2836;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
     z-index: 1;
 }
 #sidethingcontents{
@@ -15,6 +22,7 @@
 
 }
 #therest{
+	color: white;
 	position:absolute;
 	top: 1%;
 	z-index: 0;
@@ -22,7 +30,7 @@
 }
 #slice1,#slice2,#slice3{
 	position: relative;
-	border: 1px solid lightgrey;
+	border: 1px solid black;
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
@@ -30,16 +38,18 @@
     height:7%;
     min-height: 20px;
     max-height: 50px;
+    color: white;
 }
 #sliceL{
 	position: relative;
-	border: 1px solid lightgrey;
+	border: 1px solid black;
 	border-left: 0;
 	border-right: 0;
     box-sizing: border-box;
     height:7%;
     min-height: 20px;
     max-height: 50px;
+    color: white;
 }
 #pslice1,#pslice2,#pslice3,#psliceL {
 	position: relative; 
@@ -61,7 +71,7 @@
     filter: alpha(opacity=1);
 }
 body{
-	background-color: #f4f4f4;
+	background-color: #1b2836;
 }
 .img-circle{
 	position: relative;
@@ -74,4 +84,5 @@ body{
 	margin-top:5%;
 	margin-bottom: 5%;
 	text-align: center;
+	color: white;
 }
