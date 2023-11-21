@@ -76,3 +76,38 @@ body{
 		padding-left: 12px;
 	}
 }
+@media screen and (max-width: 900px) {
+	#sidething{
+		position: absolute;
+		float: top;
+		height: 100px;
+		width: 100vw;
+		align-content: center;
+		align-items: center;
+		align-self: center;
+	}
+	#sidethingcontents{
+		width: 100%;
+		align-content: center;
+		align-items: center;
+		align-self: center;
+	}
+	#sidethingtextcontents{
+		width: 100%;
+		align-content: center;
+		align-items: center;
+		align-self: center;
+	}
+	#therest{
+		margin-top: 300px;
+		margin-left: 5vw;
+		width: 90vw;
+		
+	}
+	.img-circle{
+		float: right;
+		left: -50px;
+		width: 200px;
+		height: 200px;
+	}
+}
