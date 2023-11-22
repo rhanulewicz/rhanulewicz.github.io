@@ -3,7 +3,7 @@
     background: #1f1f1f;
     border-color: #1f1f1f;
 	padding: 0%;
-	padding-top: 2%;
+	padding-top: 4px;
 	padding-left: 2%;
 	padding-right: 2%;
 	
@@ -37,8 +37,46 @@ blockquote{
 	color: white;
 	z-index: 0;
 	float: left;
-	width: 66%;
-	margin-left: 420px
+	width: 880px;
+	margin-left: 400px;
+	border-spacing: 16px;
+	
+}
+#cardstable{
+	display: table;
+}
+#legacylist{
+	margin-left: 16px;
+	width: 850px;
+}
+#row1{
+	display: table-row;
+	height: 20px;
+}
+#row2{
+	display: table-row;
+	height: 20px;
+}
+#edublock{
+	display: table-cell;
+	width: 50%;
+	
+}
+#researchblock{
+	display: table-cell;
+
+}
+#proj1block{
+	display: table-cell;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#proj2block{
+	display: table-cell;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 10px;
 }
 body{
 	background-color: #000000;
@@ -57,6 +95,7 @@ body{
 #sidethingtextcontents{
 	padding-left: 64px;
 }
+
 @media screen and (max-width: 1280px) {
 	body {
 		max-width: 960px;
@@ -102,7 +141,6 @@ body{
 		margin-top: 300px;
 		margin-left: 5vw;
 		width: 90vw;
-		
 	}
 	.img-circle{
 		float: right;
