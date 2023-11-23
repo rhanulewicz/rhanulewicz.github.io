@@ -47,60 +47,74 @@
 	</div>
 
 	<div id="therest">
-		<div id="cardstable">
-			<div id="row1">
-				<div class="well" id="edublock">
-					<p class="h4">Education</p>
+		<table id="cardstable">
+			<tr id="row1">
+				<td class="halfcardcell" >
+				<div class="halfcardcard">
+					<p class="h4" style="color: white; margin-top: 0px;">Education</p>
 					
-					<p class="h5">
+					<p class="h5" style="color: white; margin-bottom: 16px" >
 						M.S./B.S. Computer Science and Engineering <br/>
 						2014 - 2019, University at Buffalo</p>
 					</p>
 
 					<img style=" float:right; width: 100px;" src="ub.png">
-					<p style="color: gray;">Master of Science (2019), 3.7 GPA <br/>
-					Bachelor of Science (2018), 3.6 GPA</p>
+					<p class="h5" style="color: gray; margin-bottom: 4px">Master of Science (2019), 3.7 GPA</p>
+					<p class="h5" style="color: gray; margin-top: 0px">Bachelor of Science (2018), 3.6 GPA</p>
 					<!-- <li>Vice President of UB ACM (Association for Computing Machinery) (May 2017 - May 2018)</li>
 					<li>Organizer for UB Hacking 2016 and 2017</li> -->
 				</div>
+				</td>
+				<td class="halfcardcell">
+					<div class="halfcardcard">
+						<p class="h4" style="color: white; margin-top: 0px;" >Research</p>
+						<p>
+							<a class="h5" target="_blank" style="color: white" href="files/Gesture_Auth_TrustZone_Final.pdf">
+								Gesture Authentication in Trusted Execution Environment (2018) <i class="fa fa-file-pdf-o"></i>
+							</a>
+						</p>
+						<p class="h5" style="color: gray;">Using Dynamic Time Warping in Arm TrustZone</p>
+					</div>
+				</td>
+			</tr>
 
-				<div class="well" id="researchblock">
-					<p class="h4">Research</p>
-					<p><a target="_blank" style="color: white" href="files/Gesture_Auth_TrustZone_Final.pdf">Gesture Authentication in Trusted Execution Environment (2018) <i class="fa fa-file-pdf-o"></i></a></p>
-					<p style="color: gray;">Using Dynamic Time Warping in Arm TrustZone</p>
-					
-				</div>
-			</div>
-
-			<h2 id="proj" >Projects</h2>
-			<div id="row2">
-				<div class="well" id="proj1block">
+			<tr id="row2">
+				<td class="halfcardcell">
+				<div class="halfcardcard" id="projcard">
 					<img style="height: 72px;" src="autograder.svg">
-					<p class="h3" style="margin-top: 4px;" >AutoGrader 3.0</p>
+					<p class="h3" style="color: white; margin-top: 4px;" >AutoGrader 3.0</p>
 					
-					<p class="h5" style="margin-bottom: 0px;">
+					<p class="h5" style="color:white; margin-bottom: 0px;">
 						Full front-end and database solution for UB's Autolab.
 					</p>
 
-					<p style="color: gray; margin-bottom: 8px">Built from the ground-up with React.js and MongoDB.</p>
+					<p class="h5" style="color: gray; margin-top: 2px; margin-bottom: 16px">Built from the ground-up with React.js and MongoDB.</p>
 					<a target="_blank" style="color: white" href="https://rshanule.github.io/UB-Grader-Landing/">Landing Page (Legacy)</a> &nbsp;| &nbsp; <a style="color: white" target="_blank" href="https://autolab.cse.buffalo.edu/home/no_user">Production (Live!)</a>
 				</div>
+				</td>
 
-				
-				<div class="well" id="proj2block">
-					<img style="margin-top: -0px;" src="ops-class.jpg">
-					<p class="h3" style="margin-top: 8px;" >RockOS</p>
+				<td class="halfcardcell">
+				<div class="halfcardcard" id="projcard">
+					<img style="height: 72px" src="ops-class.jpg">
+					<p class="h3" style="color: white; margin-top: 4px;" >RockOS</p>
 					
 				
-					<p class="h5" style="margin-bottom: 1px;">
+					<p class="h5" style="margin-bottom: 0px; color: white;">
 						Instructional Operating System. Based on Harvard's OS/161. 
 					</p>
 
-					<p style="color: gray;">Full synchronization, user process support, virtual memory.</p>
+					<p class="h5" style="margin-top: 2px; margin-bottom: 16px; color: gray;">Full synchronization, user process support, virtual memory.</p>
 					<a target="_blank" style="color: white" href="">Github</a> &nbsp;| &nbsp; <a style="color: white" target="_blank" href="https://web.archive.org/web/20190203194527/https://test161.ops-class.org/leaders">Testing</a>
 				</div>
-			</div>
-		</div>
+				</td>
+			</tr>
+
+			<!-- <tr id="row3">
+				<td colspan="2" style="width: 100%; background: white; ">
+					ff
+				</td>
+			</tr> -->
+		</table>
 
 
 		

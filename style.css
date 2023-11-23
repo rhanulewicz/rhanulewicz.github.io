@@ -44,6 +44,10 @@ blockquote{
 }
 #cardstable{
 	display: table;
+	margin: 8px;
+}
+td{
+	margin: 32px;
 }
 #legacylist{
 	margin-left: 16px;
@@ -51,26 +55,28 @@ blockquote{
 }
 #row1{
 	display: table-row;
-	height: 20px;
 }
 #row2{
 	display: table-row;
+}
+#row3{
+	display: table-row;
 	height: 20px;
 }
-#edublock{
-	display: table-cell;
-	width: 50%;
-	
+.halfcardcell{
+	width: 50%; 
+	/*border: 1px solid white;*/
 }
-#researchblock{
-	display: table-cell;
-
+.halfcardcard{
+	height: 140px;
+	margin: 8px;
+	background-color: #1f1f1f;
+	padding: 16px;
+	border-radius: 4px;
 }
-#proj1block{
-	display: table-cell;
+#projcard{
+	height: 225px;
 	text-align: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 #proj2block{
 	display: table-cell;
