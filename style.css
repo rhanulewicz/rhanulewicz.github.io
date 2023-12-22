@@ -62,6 +62,10 @@ td{
 #row3{
 	display: table-row;
 }
+.tricardcell{
+	width: 33%; 
+	/*border: 1px solid white;*/
+}
 .halfcardcell{
 	width: 50%; 
 	/*border: 1px solid white;*/
@@ -73,9 +77,20 @@ td{
 	padding: 16px;
 	border-radius: 4px;
 }
+
 #projcard{
 	height: 220px;
 	text-align: center;
+}
+#projcardmini{
+	height: 110px;
+	padding: 12px;
+	
+}
+#affcard{
+	height: 64px;
+	text-align: left;
+	padding: 0px;
 }
 #proj2block{
 	display: table-cell;
