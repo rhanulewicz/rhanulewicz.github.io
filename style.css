@@ -9,24 +9,6 @@
 	margin: 0;
 }
 
-.well {
-    background: #1f1f1f;
-    border-color: #1f1f1f;
-	padding: 0%;
-	padding-top: 4px;
-	padding-left: 2%;
-	padding-right: 2%;
-	
-}
-blockquote{
-	border-left: 5px;
-	padding-top: 0%;
-	padding-bottom: 0%;
-	font-size: medium;
-}
-.lead {
-	font-size: large;
-}
 #left-pane{
 	position: fixed;
     width: 400px;
@@ -36,89 +18,63 @@ blockquote{
     -moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
     box-shadow: 0px 0px 1px 0px rgba(0,0,0,1);
 	border-right: 1px solid rgb(88, 88, 88);
-	padding: 2% 4%;
-	
+	padding: 3em 5.5em;
 }
+
 .img-circle{
 	border-radius:50%;
 	width:300px;
 	height: 300px;
 	box-shadow: 0px 0px 5px 1px rgba(0,0,0,.5);
 }
-#therest{
+
+#right-pane{
 	color: white;
 	z-index: 0;
 	float: left;
 	width: 880px;
 	margin-left: 400px;
 	border-spacing: 16px;
-	
+	padding: 8px;
 }
-#cardstable{
-	display: table;
-	margin: 8px;
+
+.cardsection{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
-td{
-	margin: 32px;
-}
-#legacylist{
-	margin-left: 16px;
-	width: 850px;
-}
-#row1{
-	display: table-row;
-}
-#row2{
-	display: table-row;
-}
-#row3{
-	display: table-row;
-}
-.tricardcell{
-	width: 33%; 
-	/*border: 1px solid white;*/
-}
-.halfcardcell{
-	width: 50%; 
-	/*border: 1px solid white;*/
-}
+
 .halfcardcard{
 	height: 145px;
 	margin: 8px;
 	background-color: #1f1f1f;
 	padding: 16px;
 	border-radius: 4px;
+	flex: 1 1 300px;
 }
 
 #projcard{
 	height: 220px;
 	text-align: center;
 }
+
 #projcardmini{
 	height: 110px;
 	padding: 12px;
 }
+
 #affcard{
 	height: 64px;
-	text-align: left;
 	padding: 0px;
+	flex: 1 1 0;
 }
-#proj2block{
-	display: table-cell;
-	text-align: center;
-	padding-top: 0px;
-	padding-bottom: 10px;
-}
+
 body{
 	background-color: #000000;
 	max-width: 1280px;
 	margin: 0 auto; 
 	width: 1280px;
 }
-#afftable{
-	width: 98.5%;
-}
-
 
 @media screen and (max-width: 1270px) {
 	body {
@@ -134,10 +90,11 @@ body{
 		margin: 7%;
 		margin-bottom: 0px;
 	}
-	#therest{
+	#right-pane{
 		margin-left: 250px;
 	}
 }
+
 @media screen and (max-width: 1100px) {
 	#left-pane{
 		position: absolute;
@@ -155,19 +112,17 @@ body{
 		width: 200px;
 		height: 200px;
 	}
-	#therest{
+	#right-pane{
 		margin-top: 300px;
 		margin-left: 0vw;
 		width: 100%;
-	}
-	#afftable{
-		width: 96.5%;
 	}
 	body {
 		margin: auto;
 		max-width: 960px;
 	}
 }
+
 @media screen and (max-width: 450px) {
 	.img-circle{
 		float: left;
