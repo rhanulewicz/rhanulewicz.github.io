@@ -130,15 +130,15 @@ body{
 		height: 200px;
 	}
 	body {
-		max-width: 960px;
+		width: auto;
+		min-width: 435px;
 	}
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 500px) {
 	body {
 		width: auto;
 		min-width: 435px;
-		zoom: .89
 	}
 	#left-pane {
 		display: flex;
@@ -148,5 +148,17 @@ body{
 		align-items: center;
 		justify-items: center;
 		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 450px){
+	body {
+		zoom: .9
+	}
+}
+
+@media screen and (max-width: 400px){
+	body {
+		zoom: .8
 	}
 }
